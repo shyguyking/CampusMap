@@ -1,0 +1,62 @@
+/* CSS files add styling rules to your content */
+
+#map {
+  height: 90%;
+  width: 45%;
+  float: right;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  font-family: helvetica, arial, sans-serif;
+  height: 100%;
+  margin: 2m;
+  padding: 0;
+  background: #f2eac4;
+  text-align: center;
+  font-weight: bold;
+}
+
+#questionOne {
+  background: #adb8ff;
+}
+
+#questionTwo,
+#questionThree,
+#questionFour,
+#questionFive {
+  visibility: hidden;
+  background: #adb8ff;
+}
+
+#answerOne,
+#answerTwo,
+#answerThree,
+#answerFour,
+#answerFive {
+  visibility: hidden;
+  color: #48d451;
+}
+
+#score {
+  visibility: hidden;
+}
+
+.timer {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#reset {
+    padding: .5em 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #48d451;
+    background: white ;
+    border: 10px solid #48d451;
+}
+#reset:hover {
+    color: white;
+    background-color: #48d451;
+}

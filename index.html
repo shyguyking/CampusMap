@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Map Quiz</title>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYKQq2VyXBqxx3eECtjvXKAOoxxsVDbx0&callback=initMap"
+      defer
+    ></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <h1>Map Quiz. Please double click on the map the location of:</h1>
+
+    <p id="questionOne">Where is the Baseball Field?</p>
+    <p id="answerOne">Your answer is correct!!</p>
+    <p id="questionTwo">Where is the Duck Pond?</p>
+    <p id="answerTwo">Your answer is correct!!</p>
+    <p id="questionThree">Where is the Arbor Grill?</p>
+    <p id="answerThree">Your answer is correct!!</p>
+    <p id="questionFour">Where is the Donald Bianchi Planetarium?</p>
+    <p id="answerFour">Your answer is correct!!</p>
+    <p id="questionFive">Where is the Student Recreation Center?</p>
+    <p id="answerFive">Your answer is correct!!</p>
+
+    <p id="score">5 Correct, 0 Incorrect</p>
+
+    <div class="meta">
+      <section icd="clock">
+        <div class="timer">00:00:00</div>
+      </section>
+
+      <button id="reset">Start over</button>
+    </div>
+    <!-- .meta -->
+    <!--     <button id="start">start</button> -->
+  </body>
+</html>
